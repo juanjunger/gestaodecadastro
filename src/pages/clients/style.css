@@ -1,0 +1,54 @@
+body {
+    margin:0;
+    padding: 0;
+    background-color: rgb(152, 250, 250);    
+}
+
+section h2{
+	text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+form label span{
+    color: rgb(167, 4, 4);
+    text-transform: uppercase;
+    font-weight: bolder;
+	text-align: left;
+	display: inline-block;
+	width  : 200px;
+}
+ul{
+	list-style-position: outside;
+	padding: 0px;
+}
+ul li{
+	list-style-type: none;
+	margin: 10px auto;
+}
+
+hr{
+	display: block;
+	margin: 20px auto;
+}
+
+#btnSalvar{
+	width: 60%;
+	height: 50px;
+}
+
+table#tblListar{
+	border: 1px solid black;
+	width: 100%;
+}
+
+table#tblListar thead tr th{
+	border: 0px solid black;
+	padding: 10px;
+	margin: 0px;
+}
+
+table#tblListar tbody td{
+	text-align: center;
+	border-bottom: 0px solid black;
+}
